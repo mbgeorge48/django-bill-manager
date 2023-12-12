@@ -1,0 +1,34 @@
+# Misc
+.DS_Store
+
+# Vim tmp files
+.*.swp
+
+# Distribution / packaging
+env/*
+build/*
+*/env/*
+*/build/*
+db.sqlite3
+
+# Unit test / coverage reports
+*/coverage/*
+htmlcov/*
+.tox/*
+.hypothesis/*
+
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+
+.vscode/
+
+# Python Stuff
+*.pyc
+**/.env/
+**/.venv/
+__pycache__
